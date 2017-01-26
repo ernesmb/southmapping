@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+
+body {	padding: 0;
+        margin: 0;
+	position:relative;
+        }
+        
+html, body, #map{
+	height: 100%;
+        width: 100%;
+	font-size: 100%;
+        }
+
+#map {
+	position:relative;
+	z-index:-1;
+        }
+
+#screen {
+	height: 100%;
+        width: 100%;
+	padding: 0;
+        margin: 0;
+	background-color:rgba(64,64,64, 0.2);
+	position:fixed;
+	z-index:0;
+	}
+#container {
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	z-index:1;        
+	top: 50%;
+        left: 50%;
+        margin-right: -50%;
+	padding:0;
+        transform: translate(-50%, -50%);
+	}
+
+#title {
+	text-align: center;
+	background-color: rgba(0,0,0, 0.4);
+	color:white;
+	padding:5px; 
+	margin:1%;    
+	border-top:1px solid white;
+	border-bottom:1px solid white;    
+	}
+
+#bar {
+	text-align:center;
+	margin-top:1%;
+}
+
+.button  {
+	background-color:rgba(0,0,0, 0.4);
+	text-align:center;
+	margin:1%;
+	float:left;
+	display:inline;	
+	width:48%;    
+	}
+
+.button:hover{
+	text-decoration:none;
+	color:black;
+	background-color:rgba(255,255,255,0.4);
+}
+
+h1 {
+    font-size: 3.2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight:300;
+}
+
+p {
+    font-size: 1em;
+    font-weight:300;
+}
+
+A:link{
+	text-decoration:none;
+	color:white;
+}
+A:visited{
+	text-decoration:none;
+	color:white;
+}
+
+A:active{
+	text-decoration:none;
+	color:white;
+}
