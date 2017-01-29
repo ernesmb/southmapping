@@ -13,8 +13,8 @@ function init() {
 			mapId: 'southmapping.nbh7eb5o',
 			token: 'pk.eyJ1Ijoic291dGhtYXBwaW5nIiwiYSI6IkdsNWJpUzQifQ.wGioWqTZt28vefHwFu1hQA'}).addTo(map);
 		
-	
-		var i=Math.floor((Math.random() * 6) + 1);				
+		var l=locations.length	
+		var i=Math.floor((Math.random() * l));				
 		map.setView(locations[i].coords, locations[i].zoom);
 		console.log(locations[i])
 }
